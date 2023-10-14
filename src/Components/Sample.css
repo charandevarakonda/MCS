@@ -1,0 +1,66 @@
+/* Sample.css */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50%; /* Adjust the height of the container as needed */
+    position: relative; /* Add position relative to create a positioning context */
+  }
+  
+  .image-container {
+    display: flex;
+    align-items: flex-start;
+    flex: 1;
+    position: relative; /* Add position relative to create a stacking context */
+  }
+  
+  .image1 {
+    max-height: 40%; /* Set max height for image1 */
+    height: auto; /* Preserve the image's aspect ratio */
+  }
+  
+  .image2 {
+    max-height: 100%; /* Set max height for image2 */
+    height: auto; /* Preserve the image's aspect ratio */
+  }
+  
+  .searching {
+    position: absolute;
+    bottom: 0; /* Position at the bottom of the container */
+    left: 29%; /* Position to the left of image2 */
+    transform: translateX(-50%); /* Center horizontally relative to container */
+  }
+  
+  .results {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+  }
+  .inputclass{
+    width: 670px;
+    height: 73px;
+top: 546px;
+left: 128px;
+border-radius: 10px;
+border: 1px;
+background: linear-gradient(0deg, #BFBFBF, #BFBFBF),
+linear-gradient(0deg, #FFFFFF, #FFFFFF);
+  }
+
+.searchbutt{
+    width: 55px;
+    height: 19px;
+    top: 573px;
+    left: 678px;
+    background: #0076CE;
+
+  }
+  
